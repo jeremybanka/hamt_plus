@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "lib": ["es2015"],
+    "target": "es2015",
+    "noEmit": true,
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "module": "esnext"
+  },
+  "include": ["tests/**/*.ts", "hamt_plus.d.ts"],
+  "exclude": ["node_modules"]
+}
